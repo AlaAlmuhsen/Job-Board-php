@@ -42,13 +42,15 @@ End Points
         -password
         -type : 1 for recuriter 2 for seeker
 
-2- user/signin'
+2- user/signin
+
     method : POST
     body as form data :
         -email
         -password
         
 3- job/create
+
     method : POST
     headers : 
         - barear token that back from signin | sign up 
@@ -59,6 +61,7 @@ End Points
         only recruiter can create job
 
  4- jobs
+ 
      method : GET
      headers : 
         - barear token that back from signin | sign up
@@ -66,6 +69,7 @@ End Points
       return all Jobs 
 
  5- jobs/1
+ 
      method : GET
      headers : 
         - barear token that back from signin | sign up
@@ -73,6 +77,7 @@ End Points
       return job with job id number 1
 
  6- job/application/1
+ 
      method : GET
      headers : 
         - barear token that back from signin | sign up
@@ -82,6 +87,7 @@ End Points
         only recruiter can create job
         
   7- job/apply/1
+  
      method : POST
      headers : 
         - barear token that back from signin | sign up
@@ -91,6 +97,7 @@ End Points
         only Seeker can Apply For a job
 
   8- job/my-applications 
+  
       method : GET
        headers : 
         - barear token that back from signin | sign up
