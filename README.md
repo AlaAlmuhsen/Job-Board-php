@@ -5,7 +5,8 @@ INSTALLATION
 
 ### Install with Git
 
-Git Clone ''
+open cmd and type:
+Git Clone https://github.com/AlaAlmuhsen/Job-Board-php.git
 
 
 CONFIGURATION
