@@ -33,7 +33,9 @@ End Points
 -------
 
 1- user/signup'
+
     method : POST
+    
     body as form data :
         -name
         -email
