@@ -32,7 +32,7 @@ return [
 End Points
 -------
 
-1- user/signup'
+1- user/signup
 
     method : POST
     
